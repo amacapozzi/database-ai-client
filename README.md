@@ -21,8 +21,8 @@ A modern, AI-powered database client built with Go and Wails. Explore your datab
 
 ### Prerequisites
 
-- [Go 1.21+](https://golang.org/dl/)
-- [Node.js 18+](https://nodejs.org/)
+- [Go 1.25+](https://golang.org/dl/)
+- [Node.js 24.7.0+](https://nodejs.org/)
 - [Wails CLI](https://wails.io/docs/gettingstarted/installation)
 
 ### Installation
