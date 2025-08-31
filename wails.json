@@ -1,0 +1,13 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "database-ai-client",
+  "outputfilename": "database-ai-client",
+  "frontend:install": "bun install",
+  "frontend:build": "bun run build",
+  "frontend:dev:watcher": "bun run dev",
+  "frontend:dev:serverUrl": "auto",
+  "author": {
+    "name": "amacapozzi",
+    "email": "mosqueracapozzia@gmail.com"
+  }
+}
