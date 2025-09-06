@@ -11,6 +11,7 @@ export function ConnectionString({ handleConnectDatabase }: ConnectionProps) {
 
   const handleConnect = () => {
     handleConnectDatabase(databaseUrl);
+    localStorage.setItem("databaseUrl", databaseUrl);
   };
 
   return (

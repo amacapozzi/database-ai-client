@@ -20,6 +20,10 @@ func NewApp() *App {
 
 }
 
+type Win32_Processor struct {
+	ProcessorId string
+}
+
 // startup is called when the app starts. The context is saved
 // so we can call the runtime methods
 func (a *App) startup(ctx context.Context) {

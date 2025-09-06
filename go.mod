@@ -3,6 +3,7 @@ module database-ai-client
 go 1.23.0
 
 require (
+	github.com/StackExchange/wmi v1.2.1
 	github.com/jackc/pgx/v5 v5.7.5
 	github.com/wailsapp/wails/v2 v2.10.2
 )
